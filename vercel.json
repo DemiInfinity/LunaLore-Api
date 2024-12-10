@@ -3,10 +3,6 @@
       {
         "src": "apps/auth/next.config.js",
         "use": "@vercel/next"
-      },
-      {
-        "src": "apps/auth/pages/api/**/*.ts",
-        "use": "@vercel/node"
       }
     ],
     "rewrites": [
