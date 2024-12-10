@@ -12,7 +12,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   if (req.method === 'POST') {
-    const { email, password } = req.body;
+    const { email, username, password } = req.body;
 
     const { data, error } = await supabase.auth.signUp({ email, password });
 
