@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
     reactStrictMode: true,
     swcMinify: true,
+    output: 'standalone',
     distDir: path.join('..', '..', 'public', 'auth'),
     env: {
       NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
