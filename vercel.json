@@ -1,17 +1,6 @@
 {
     "rewrites": [
       { "source": "/api/:path*", "destination": "/apps/auth/pages/api/:path*" }
-    ],
-    "builds": [
-      {
-        "src": "apps/auth/pages/api/**/*.ts",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "apps/auth/pages/**/*.tsx",
-        "use": "@vercel/next"
-      }
-    ],
-    "outputDirectory": "apps/auth/.next"
+    ]
   }
   
