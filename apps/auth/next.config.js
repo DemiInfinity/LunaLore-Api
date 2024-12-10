@@ -1,11 +1,6 @@
 const path = require('path');
 
 module.exports = {
-  reactStrictMode: true,
-  distDir: path.join('..', '..', 'public', 'auth'),
-};
-
-module.exports = {
     reactStrictMode: true,
     swcMinify: true,
     distDir: path.join('..', '..', 'public', 'auth'),

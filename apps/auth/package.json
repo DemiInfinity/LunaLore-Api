@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build": "next build && mkdir -p ../../public && mv .next ../../public/auth",
+    "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
     "test": "jest"
