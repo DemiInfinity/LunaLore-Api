@@ -2,7 +2,6 @@ const path = require('path');
 
 module.exports = {
     reactStrictMode: true,
-    swcMinify: true,
     distDir: path.join('..', '..', 'public', 'auth'),
     webpack: (config) => {
       config.resolve.symlinks = false;
