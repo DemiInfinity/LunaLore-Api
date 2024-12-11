@@ -5,15 +5,22 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api/$1"
-    }
-  ],
   "rewrites": [
-    { "source": "/api/signup", "destination": "/apps/auth/pages/api/signup" },
-    {"source": "/api/signin", "destination": "/apps/auth/pages/api/signin"},
-    {"source": "/api/signout", "destination": "/apps/auth/pages/api/signout"}
+    {
+      "source": "/api/signup",
+      "destination": "/apps/auth/pages/api/signup"
+    },
+    {
+      "source": "/api/signin",
+      "destination": "/apps/auth/pages/api/signin"
+    },
+    {
+      "source": "/api/signout",
+      "destination": "/apps/auth/pages/api/signout"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/api/$1"
+    }
   ]
 }
