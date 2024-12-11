@@ -1,31 +1,11 @@
 {
-  "$schema": "https://turbo.build/schema.json",
-  "tasks": {
-    "build": {
-      "outputs": [".next/**", "public/**"],
-      "dependsOn": ["^build"],
-      "env": ["NODE_ENV"]
-    },
+  "pipeline": {
     "dev": {
-      "cache": false, 
-      "persistent": true
+      "cache": false,
+      "outputs": []
     },
-    "lint": {
-      "outputs": [],
-      "dependsOn": ["^lint"]
-    },
-    "test": {
-      "outputs": [],
-      "dependsOn": ["^test"]
-    },
-    "deploy": {
-      "dependsOn": ["build"],
-      "env": ["VERCEL_PROJECT_ID", "VERCEL_ORG_ID"]
+    "build": {
+      "outputs": ["apps/**/.next/**"]
     }
-  },
-  "globalDependencies": ["package.json", "tsconfig.json", ".env"],
-  "globalEnv": ["NEXT_PUBLIC_SUPABASE_URL", "NEXT_PUBLIC_SUPABASE_ANON_KEY"],
-  "remoteCache": {
-    "enabled": true
   }
 }

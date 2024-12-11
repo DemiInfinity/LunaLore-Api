@@ -1,5 +1,23 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-  }
+    "paths": {
+      "@shared-utils/*": ["packages/shared-utils/*"]
+    },
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "incremental": true
+  },
+  "include": ["packages/**/*", "apps/**/*"],
+  "exclude": ["node_modules"]
 }
