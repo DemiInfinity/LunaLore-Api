@@ -1,10 +1,6 @@
 {
-  "build": {
-    "commands": [
-      "turbo run build"
-    ]
-  },
   "rewrites": [
     { "source": "/api/:path", "destination": "/apps/auth/pages/api/:path" }
-  ]
+  ],
+  "buildCommand": "turbo run build"
 }
