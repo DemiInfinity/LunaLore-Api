@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-      "baseUrl": ".",
-      "paths": {
-        "@shared-utils/*": ["packages/shared-utils/*"]
-      }
+    "baseUrl": ".",
+    "paths": {
+      "@lunalore/shared-utils/*": ["packages/shared-utils/*"]
+    }
     }
   }
   

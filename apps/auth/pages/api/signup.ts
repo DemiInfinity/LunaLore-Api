@@ -1,4 +1,4 @@
-import { supabase } from '../../../../packages/shared-utils/superbase';
+import { supabase } from '@lunalore/shared-utils/superbase';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -12,7 +12,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   if (req.method === 'POST') {
-    const { email, username, password } = req.body;
+    const { email, password } = req.body;
 
     const { data, error } = await supabase.auth.signUp({ email, password });
 

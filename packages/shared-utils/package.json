@@ -1,9 +1,13 @@
 {
-    "name": "@lunalore/shared-utils",
-    "private": true,
-    "main": "index.js",
-    "dependencies": {
-      "@supabase/supabase-js": "^2.0.0"
-    }
+  "name": "@lunalore/shared-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "*.js",
+    "*.ts"
+  ],
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.3"
   }
-  
+}
