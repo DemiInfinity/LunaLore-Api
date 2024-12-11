@@ -6,12 +6,10 @@
       "outputs": []
     },
     "build": {
-      "outputs": ["apps/**/.next/**"]
+      "outputs": ["apps/*/.next/**"]
     },
-    "lint": {
-      "outputs": []
-    },
-    "test": {
+    "deploy": {
+      "dependsOn": ["build"],
       "outputs": []
     }
   }
