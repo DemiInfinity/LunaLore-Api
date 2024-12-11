@@ -2,11 +2,9 @@ const path = require('path');
 
 module.exports = {
   reactStrictMode: true,
-  target: 'server', // Necessary for server-side builds (default for Next.js 12+)
-  distDir: '.next', // Optional: Keeps the default build folder
+  distDir: '.next', // Default output directory
   webpack: (config) => {
-    // Disable symlinks for module resolution
-    config.resolve.symlinks = false;
+    config.resolve.symlinks = false; // Disable symlinks for monorepos or custom setups
     return config;
   },
   env: {
@@ -14,8 +12,5 @@ module.exports = {
     NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
     NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   },
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx'], // Allows flexible page file extensions
-  experimental: {
-    outputFileTracing: true, // Improves serverless function handling
-  },
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx'], // File extensions to treat as valid pages
 };
