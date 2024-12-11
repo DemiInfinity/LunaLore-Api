@@ -1,11 +1,7 @@
 {
   "pipeline": {
-    "dev": {
-      "cache": false,
-      "outputs": []
-    },
     "build": {
-      "outputs": ["apps/next-app/**/.next/**", "apps/api/dist/**"]
+      "outputs": ["apps/api/**", ".next/**"]
     }
   }
 }
