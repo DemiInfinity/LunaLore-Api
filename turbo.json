@@ -5,7 +5,7 @@
       "outputs": []
     },
     "build": {
-      "outputs": ["apps/**/.next/**"]
+      "outputs": ["apps/next-app/**/.next/**", "apps/api/dist/**"]
     }
   }
 }

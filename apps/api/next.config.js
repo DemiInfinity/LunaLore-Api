@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   reactStrictMode: true,
-  distDir: path.join('..', '..', '.next', 'auth'), // Keep this if needed for monorepo
+  distDir: '.next', // Keep this if needed for monorepo
   webpack: (config) => {
     config.resolve.symlinks = false;
     return config;
