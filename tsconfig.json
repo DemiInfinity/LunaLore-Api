@@ -1,23 +1,14 @@
 {
   "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["dom", "esnext"],
+    "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@shared-utils/*": ["packages/shared-utils/*"]
-    },
-    "target": "ESNext",
-    "module": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "noEmit": true,
-    "incremental": true
+      "@api/*": ["apps/api/*"],
+      "@website/*": ["apps/website/*"]
+    }
   },
-  "include": ["packages/**/*", "apps/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["apps/*"]
 }

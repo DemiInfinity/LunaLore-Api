@@ -1,5 +1,5 @@
 module.exports = {
-    reactStrictMode: true,
-    pageExtensions: ['ts', 'tsx', 'js', 'jsx'], // If needed
-  };
-  
+  reactStrictMode: true,
+  distDir: '.next',
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx'],
+};

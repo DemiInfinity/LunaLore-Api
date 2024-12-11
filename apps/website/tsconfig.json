@@ -1,24 +1,18 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./.next",
-    "strict": true,
-    "noEmit": true,
-    "jsx": "preserve", // For React 17+ with the new JSX transform
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
+    "outDir": "dist",
     "allowJs": true,
-    "esModuleInterop": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
   },
   "include": [
-    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
   ],

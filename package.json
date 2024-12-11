@@ -1,13 +1,16 @@
 {
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "turbo run dev",
+    "dev": "turbo run dev --parallel",
     "build": "turbo run build",
-    "type-check": "turbo run type-check"
+    "lint": "turbo run lint",
+    "test": "turbo run test"
   },
   "devDependencies": {
-    "turbo": "^1.8.0",
+    "turbo": "^1.10.0",
     "typescript": "^5.0.0"
   }
 }
