@@ -1,14 +1,13 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "pipeline": {
+  "tasks": {
     "build": {
       "outputs": ["dist/**", ".next/**", "public/**"],
       "dependsOn": ["^build"],
       "env": ["NODE_ENV"]
     },
     "dev": {
-      "cache": false,
-      "dependsOn": ["^dev"],
+      "cache": false, 
       "persistent": true
     },
     "lint": {
@@ -28,6 +27,5 @@
   "globalEnv": ["NEXT_PUBLIC_SUPABASE_URL", "NEXT_PUBLIC_SUPABASE_ANON_KEY"],
   "remoteCache": {
     "enabled": true
-  },
-  "workspaces": ["apps/*", "packages/*"]
+  }
 }
