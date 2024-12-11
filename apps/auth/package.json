@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@lunalore/shared-utils": "^1.0.0",
+    "@lunalore/shared-utils": "*",
     "next": "^13.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

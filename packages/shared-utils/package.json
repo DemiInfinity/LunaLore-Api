@@ -1,21 +1,7 @@
 {
   "name": "@lunalore/shared-utils",
-  "version": "1.0.0",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "files": [
-    "*.js",
-    "*.ts"
-  ],
-  "dependencies": {
-    "@supabase/supabase-js": "^2.47.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "main": "./index.js",
+  "exports": {
+    "./superbase": "./superbase.ts"
+  }
 }
