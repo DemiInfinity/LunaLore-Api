@@ -1,4 +1,4 @@
-import { supabase } from '@lunalore/shared-utils/superbase';
+import { supabase } from '../../superbase';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
