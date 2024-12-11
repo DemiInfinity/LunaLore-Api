@@ -8,7 +8,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@lunalore/shared-utils": "*",
+    "@lunalore/shared-utils": "workspace:*",
     "@supabase/supabase-js": "^2.47.3",
     "next": "^13.0.0",
     "react": "^18.0.0",
