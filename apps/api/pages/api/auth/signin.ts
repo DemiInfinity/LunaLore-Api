@@ -10,6 +10,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     const data = await signInWithEmail(email, password);
+    console.log("logged in");
     return res.status(200).json(data);
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
