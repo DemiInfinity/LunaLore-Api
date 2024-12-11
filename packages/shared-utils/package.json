@@ -3,5 +3,8 @@
   "main": "./index.js",
   "exports": {
     "./superbase": "./superbase.ts"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
