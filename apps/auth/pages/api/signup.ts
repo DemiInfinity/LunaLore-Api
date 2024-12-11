@@ -1,4 +1,4 @@
-import { supabase } from '../../../../packages/shared-utils/superbase';
+import { supabase } from '@shared-utils/superbase';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
