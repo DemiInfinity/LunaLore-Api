@@ -10,7 +10,9 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "turbo": "^1.10.0",
+    "turbo": "^2.3.3",
     "typescript": "^5.0.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22",
+  "name": "LunaLore-Api"
 }

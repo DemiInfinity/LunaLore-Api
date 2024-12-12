@@ -8,7 +8,18 @@
     "paths": {
       "@api/*": ["apps/api/*"],
       "@website/*": ["apps/website/*"]
-    }
+    },
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["apps/*"]
+  "include": [
+    "apps/**/*",   // Match all files recursively in apps/
+    "types.d.ts"   // Include global type declarations
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
