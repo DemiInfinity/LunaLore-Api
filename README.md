@@ -42,7 +42,7 @@ Welcome to the **LunaLore API**, the backbone of the LunaLore platform. This API
 ### **Steps**
 1. Clone the repository:
    	```bash
-   git clone https://github.com/yourusername/lunalore-api.git
+   git clone https://github.com/DemiInfinity/lunalore-api.git
 	```
 2. Navigate to the project directory:
    	```bash
@@ -97,7 +97,7 @@ Welcome to the **LunaLore API**, the backbone of the LunaLore platform. This API
 ## 📖 **API Documentation**
 
 ### **Base URL**
-	https://api.lunalore.vercel.app/
+	https://api.lunalore.app/
 	
 
 ### **Planned Endpoints**
