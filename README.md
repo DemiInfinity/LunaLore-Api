@@ -142,8 +142,8 @@ Feel free to reach out if you have thoughts or ideas for future improvements.
 
 ## 🔗 **Related Projects**
 
-- [LunaLore Main Website](https://lunalore.app/) - Not yet Developed
-- [Celestial Council Viewer Platform](https://council.lunalore.app/) - Not yet Developed
+- [LunaLore Main Website](https://lunalore.app/) (In Development)
+- [Celestial Council Viewer Platform](https://council.lunalore.app/) (Planned)
 
 
 ## 📝 **License**
