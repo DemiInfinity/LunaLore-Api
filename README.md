@@ -148,4 +148,7 @@ Feel free to reach out if you have thoughts or ideas for future improvements.
 
 ## 📝 **License**
 
-This project is licensed under the MIT License.
+This project is governed by a custom license.  
+Please refer to the [LICENSE.md](./LICENSE.md) file in the root of this repository for full details.
+
+By accessing or using this repository, you agree to the terms outlined in the license. Unauthorized forking, copying, or redistribution is prohibited.
