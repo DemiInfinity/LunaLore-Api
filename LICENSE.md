@@ -9,7 +9,7 @@ The LunaLore API and its source code are proprietary and protected under copyrig
 - This software is provided solely for reference and review purposes. Any use outside this scope is strictly prohibited.
 
 ### **2. Ownership**
-- The LunaLore API and all associated intellectual property rights are the exclusive property of [Demi Taylor Nimmo].
+- The LunaLore API and all associated intellectual property rights are the exclusive property of Demi Taylor Nimmo.
 
 ### **3. No Warranty**
 - This software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
