@@ -148,7 +148,10 @@ Feel free to reach out if you have thoughts or ideas for future improvements.
 
 ## 📝 **License**
 
-This project is governed by a custom license.  
+This project is governed by a custom license.
+
+©Demi Taylor Nimmo, 2025. All Rights Reserved.
+
 Please refer to the [LICENSE.md](./LICENSE.md) file in the root of this repository for full details.
 
 By accessing or using this repository, you agree to the terms outlined in the license. Unauthorized forking, copying, or redistribution is prohibited.
