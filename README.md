@@ -81,7 +81,7 @@ Welcome to the **LunaLore API**, the backbone of the LunaLore platform. This API
 3. Set the environment variables:
    - Go to your project’s **Settings** in the Vercel dashboard.
    - Under the **Environment Variables** section, add:
-     ```
+     ```bash
      SUPABASE_URL=your-supabase-url
      SUPABASE_KEY=your-supabase-key
      JWT_SECRET=your-jwt-secret
@@ -97,9 +97,8 @@ Welcome to the **LunaLore API**, the backbone of the LunaLore platform. This API
 ## 📖 **API Documentation**
 
 ### **Base URL**
-	```
 	https://api.lunalore.vercel.app/
-	```
+	
 
 ### **Planned Endpoints**
 
