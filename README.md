@@ -41,32 +41,32 @@ Welcome to the **LunaLore API**, the backbone of the LunaLore platform. This API
 
 ### **Steps**
 1. Clone the repository:
-   ```bash
+   	```bash
    git clone https://github.com/yourusername/lunalore-api.git
 	```
 2. Navigate to the project directory:
-   ```bash
+   	```bash
 	cd lunalore-api
 	```
 3. Install dependencies:
-   ```bash
+	```bash
    npm install
 	```
 4. Set up environment variables:
 - Create a .env file in the root directory.
 - Add your Supabase keys and other environment variables:
-   ```env
+   	```env
 	SUPABASE_URL=your-supabase-url
 	SUPABASE_KEY=your-supabase-key
 	JWT_SECRET=your-jwt-secret
 
 	```
 5. Run the development server:
-   ```bash
+   	```bash
 	npm run dev
 	```
 6. Access the API locally:
-   ```bash
+   	```bash
 	http://localhost:3000
 	```
 
@@ -97,7 +97,7 @@ Welcome to the **LunaLore API**, the backbone of the LunaLore platform. This API
 ## 📖 **API Documentation**
 
 ### **Base URL**
-	```bash
+	```
 	https://api.lunalore.vercel.app/
 	```
 
