@@ -14,5 +14,9 @@
     "typescript": "^5.0.0"
   },
   "packageManager": "yarn@1.22.22",
-  "name": "LunaLore-Api"
+  "name": "LunaLore-Api",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2"
+  }
 }

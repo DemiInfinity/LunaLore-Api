@@ -40,3 +40,11 @@ export const getUserSession = async () => {
   }
   return data.session;
 };
+// Get the authenticated user
+export const getUser = async () => {
+  const { data, error } = await supabase.auth.getUser();
+  if (error) {
+    throw error;
+  }
+  return data.user;
+};

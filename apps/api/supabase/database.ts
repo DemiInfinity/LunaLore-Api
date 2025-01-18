@@ -17,3 +17,12 @@ export const fetchUserById = async (userId: string) => {
   }
   return data;
 };
+
+// Fetch a user by email
+export const fetchUserByEmail = async (email: string) => {
+  const { data, error } = await supabase.from('users').select('*').eq('email', email).single();
+  if (error) {
+    throw error;
+  }
+  return data;
+};
